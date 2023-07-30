@@ -8,9 +8,7 @@ void main(){
   int p1,p2;
   char s[20];
   p1 = open("file.txt",O_RDWR);
-  char data[];
-  printf("Enter a sentence");
-  scanf("%[^\n]s",data);
+  char data[] = "this is a sentence";
 
   if(p1!=-1){
     printf("File in p1 opened\n");
